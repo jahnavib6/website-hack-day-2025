@@ -2,9 +2,12 @@
 
 /* The body class targets the <body> tag in your html file */
 body {
-    background-color: #b8aac9;
+    background-color: #f8f9fa;
     font-family: "Karla", sans-serif;
     margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 /* The following classes are used to style the corresponding html classes */
@@ -31,4 +34,43 @@ body {
 
 #para1-text {
     color:black;
+}
+
+.navbar {
+    background-color: #f0e5c3 !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #333 !important;
+}
+
+.nav-link {
+    color: #333 !important;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #b8aac9 !important;
+}
+
+.container {
+    flex: 1;
+}
+
+.display-4 {
+    color: #333;
+    font-weight: bold;
+}
+
+.lead {
+    color: #555;
+}
+
+footer {
+    background-color: #f0e5c3;
+    color: #333;
+    margin-top: auto;
 }
